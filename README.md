@@ -13,7 +13,7 @@ Deve ser recriado do zero layout passado no link em anexo ao final deste README 
 
 ## Layout
 O layout a ser replicado está [neste link](https://planetthemes.github.io/demo/bootstrap-4-blog/#)
-**Lembre-se: tenha empatia, atente-se em como o usuário estaria de fato utilizando o layout que vocês está desenvolvendo 😃**
+**Lembre-se: tenha empatia, atente-se em como o usuário estaria de fato utilizando o layout que você está desenvolvendo 😃**
 
 ## Como iniciar?
 - Clone este repositório
