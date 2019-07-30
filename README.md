@@ -9,7 +9,7 @@ Deve ser recriado do zero layout passado no link em anexo ao final deste README 
 - Não utilizar frameworks para criação de interfaces
 - Não utilizar flexbox
 - Preste atenção ao comportamento dos botões, links e cores, estados como :hover, :focus, etc....!
-- O exercício vai deve ser enviado neste repositório. Você deve fazer um push neste repo com uma branch no seu nome
+- O exercício deve ser enviado neste repositório. Você deve fazer um push neste repo com uma branch no seu nome
 
 ## Layout
 O layout a ser replicado está [neste link](https://planetthemes.github.io/demo/bootstrap-4-blog/#)
