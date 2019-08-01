@@ -1,1 +1,527 @@
 /* css file */
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1140px;
+    height: 789px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.cabecalho {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+    width: 1110px;
+    height: 42px;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.blogcabecalho {
+    width: 1110px;
+    height: 36px;
+
+}
+
+.largeContainer {
+    height: 36px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: flex-end !important;
+    text-align: center;
+}
+
+.searchBar {
+    height: 31px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.subscribe {
+    height: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.large {
+    text-align: center !important;
+}
+
+.lg {
+    color: #343a40 !important;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 35px;
+    left: 602px;
+    right: 200px;
+}
+
+.lg:hover {
+    text-decoration: none;
+}
+
+.subscribeContainer {
+    align-items: center !important;
+}
+
+.submenus {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5rem;
+}
+
+.submenusContainer {
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: 1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: 22px;
+}
+
+.sub {
+    padding: .5rem !important;
+    color: #6c757d !important;
+    font-size: 1rem;
+}
+
+.bannerContainer {
+    border-radius: .25rem !important;
+    background-color: #343a40 !important;
+    padding: 48px;
+    height: 282px;
+}
+
+.h1 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+    color: #fff !important;
+    width: 507px;
+    height: 114px;
+    margin-top: 0;
+}
+
+
+@media (min-width: 768px) {
+    .h1 {
+        font-size: 3rem;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+}
+
+.bannerP {
+    margin-top: 1rem !important;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff !important;
+    flex: 0 0 50%;
+    max-width: 46%;
+}
+
+.contRead {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.postContainer {
+    margin-bottom: .5rem !important;
+    display: flex;
+    margin-top: 32px;
+    height: 232px;
+    width: 1074px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column !important;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 538px;
+    height: 248px;
+}
+
+.primeiroPostContainer {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+
+.segundoPostContainer {
+    left: 31px;
+}
+
+.primeiroPost {
+    width: 367px;
+    height: 0px;
+}
+
+.segundoPost {
+    width: 367px;
+    height: 0px;
+}
+
+.imgPost {
+    vertical-align: middle;
+    border-style: none;
+    position: absolute;
+    right: 37px;
+    left: 337px;
+    top: 0px;
+    border-radius: 0 3px 3px 0;
+}
+
+.textoPrimario {
+    color: #007bff !important;
+    margin-bottom: 8px !important;
+}
+
+.textoPrimeiroPost {
+    margin-bottom: 25px;
+}
+
+.textoSegundoPost {
+    margin-bottom: 25px;
+}
+
+.textoPrim {
+    color: #28a745 !important;
+    margin-bottom: .5rem !important;
+}
+
+.tituloPost {
+    color: #343a40 !important;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.dataPost {
+    color: #6c757d !important;
+    margin-bottom: .25rem !important;
+}
+
+.ctnReading {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.signUpBtn {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+    border: 1px solid transparent;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-color: #6c757d;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+
+}
+
+.signUpBtn:hover {
+    background: #6c757d;
+    color: #fff;
+    text-decoration: none;
+}
+
+.primeiroCard {
+    height: 248px;
+    padding-top: 20px;
+    padding-right: 40px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.segundoCard {
+    height: 248px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.h3PrimCard {
+    margin-bottom: 6px;
+    margin-top: 11px;
+}
+
+.h3SegCard {
+    margin-bottom: 6px;
+    margin-top: 11px;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mainH3 {
+    margin-top: 60px;
+    padding-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1.75rem;
+}
+
+.mainH2 {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.dataMainPost {
+    margin-bottom: 1.25rem;
+    color: #999;
+    margin-top: 0px;
+}
+
+.postTexto {
+    width: 760px;
+    height: 368px;
+    padding-right: 15px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.subs {
+    color: #6c757d !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-top: 0;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+}
+
+pre {
+    margin-bottom: 0px;
+}
+
+code {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    position: absolute;
+    left: 134px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.feature {
+    position: absolute;
+    top: 2564px;
+}
+
+.anotherPost {
+    position: absolute;
+    top: 2160px;
+}
+
+.paginacao {
+    position: absolute;
+    top: 2984px;
+}
+
+.btnOlder {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: 6px 12px;
+}
+
+.btnOlder:hover {
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnNewer {
+    color: #6c757d;
+    background-color: transparent;
+    pointer-events: none;
+    border-color: #6c757d;
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: 6px 12px;
+    opacity: .65;
+}
+
+.btnNewer:hover {
+    text-decoration: none;
+}
+
+.footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+    position: relative;
+    top: 1389px;
+    bottom: 0;
+}
+
+.sobre {
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: .25rem !important;
+    background-color: #f8f9fa !important;
+    width: 350px;
+    height: 164px;
+    position: absolute;
+    right: 20px;
+    top: 831px;
+    left: 885px;
+}
+
+.h4Sidebar {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.textoLateral {
+    padding-right: 12px;
+    margin-top: 6px;
+}
+
+.parag {
+    padding-right: 10px;
+}
+
+.primBlock {
+    margin-left: 0px;
+}
+
+.quartParag {
+    margin-top: 0px;
+    margin-right: 14px;
+}
+
+.segParag {
+    padding-right: 15px;
+}
+
+.linksLateral {
+    position: absolute;
+    left: 905px;
+    top: 1014px;
+}
+
+.arquivo {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+    ;
+}
+
+.elsewhere {
+    top: 1400px;
+}
+
+.redeSocial {
+    list-style: none;
+    padding-left: 0;
+}
+
+svg {
+    color: #6c757d !important;
+    margin-right: 9px;
+}
+
+.search:hover {
+    text-decoration: none;
+}
+
+.heading {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
