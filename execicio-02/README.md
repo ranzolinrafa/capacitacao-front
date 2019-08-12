@@ -15,8 +15,10 @@ O layout a ser replicado está [neste link](https://xd.adobe.com/spec/cfb312c1-6
 **Lembre-se: tenha empatia, atente-se em como o usuário estaria de fato utilizando o layout que você está desenvolvendo 😃**
 
 ## Como iniciar?
+- Antes de tudo, leia [esse link](https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/), para entender como funciona o fluxo de um pull request
 - Faça um fork deste repositório
 - Clone este repositório
-- Crie uma branch com seu nome (ex rafael-pedroso) $ git checkout -b rafael-pedroso
+- Crie uma branch com o prefixo exercicio-2-seu-nome (ex exercicio-2rafael-pedroso) $ git checkout -b exercicio-2-rafael-pedroso
 - Faça o exercício
+- Faça o commit e push
 - Abra o pull request para que possamos fazer o code review

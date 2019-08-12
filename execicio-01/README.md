@@ -1,3 +1,6 @@
+# capacitacao-front
+Repositório para validação de exercício de capacitação Trainee/Junior
+
 ## Sobre o exercício
 Deve ser recriado do zero layout passado no link em anexo ao final deste README obedecendo todos os requisitos passados, é muito importante se atentar aos detalhes para não haver quebra de elementos do layout.
 
