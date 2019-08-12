@@ -5,6 +5,7 @@
 }
 .main-header__logo {
     margin-bottom: 80px;
+    margin-top: 112px;
 }
 .main-header__title-function {
     color: #1C346C;
@@ -12,4 +13,17 @@
     font-style: italic;
     font-weight: 300;
     margin-bottom: 32px;
+}
+.main-header__title-challenge {
+    font-size: 48px;
+    color: #1C346C;
+    font-style: italic;
+}
+.main-header__title-challenge span {
+    color: #F5C33D;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
