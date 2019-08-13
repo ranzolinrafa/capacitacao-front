@@ -32,6 +32,11 @@
     font-family: 'Lato', sans-serif;
     margin-top: 112px;
 }
+.main-content__methodology {
+    background-image: url('../img/bg-section-1.svg');
+    background-position-x: left;
+    background-repeat: no-repeat;  
+}
 .main-content__methodology-dot {
     color: #1C346C;
     font-size: 16px;
@@ -52,12 +57,13 @@
     color: #1C346C;
     font-size: 64px;
     letter-spacing: 0;
-    width: 950px;
+    max-width: 950px;
 }
 .main-content__methodology-text .main-content__methodology-desc {
     color: #3B3B3B;
     font-size: 24px;
-    width: 674px;
+    font-weight: 300;
+    max-width: 674px;
 }
 
 
