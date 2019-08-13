@@ -39,12 +39,25 @@
     margin: 0;
     text-transform: uppercase;
 }
-.main-content__methodology-trace {
+.main-content__methodology-border {
     background: #1C346C;
     border-radius: 3px;
     height: 4px;
     width: 50px;
 }
-
+.main-content__methodology-title {
+    margin-top: 24px;
+}
+.main-content__methodology-desc {
+    color: #1C346C;
+    font-size: 64px;
+    letter-spacing: 0;
+    width: 950px;
+}
+.main-content__methodology-text .main-content__methodology-desc {
+    color: #3B3B3B;
+    font-size: 24px;
+    width: 674px;
+}
 
 
