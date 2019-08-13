@@ -1,4 +1,10 @@
+var prevArrow = $('.slider-arrow--prev');
+var nextArrow = $('.slider-arrow--next');
+
 $('.slick-container').slick({
-    infinite: true,
-    
+    infite: true,
+    slidesToShow: 1,
+    prevArrow: prevArrow,
+    nextArrow: nextArrow,
+    slidesToScroll: 1
 });
