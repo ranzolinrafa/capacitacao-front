@@ -24,7 +24,7 @@
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1613px;
     margin: 0 auto;
 }
 
@@ -34,8 +34,10 @@
 }
 .main-content__methodology {
     background-image: url('../img/bg-section-1.svg');
-    background-position-x: left;
-    background-repeat: no-repeat;  
+    background-position-x: 102%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 764px;
 }
 .main-content__methodology-dot {
     color: #1C346C;
