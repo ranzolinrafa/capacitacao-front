@@ -39,14 +39,15 @@
     background-size: 50%;
     height: 764px;
 }
-.main-content__methodology-dot {
+.main-content__dot {
     color: #1C346C;
     font-size: 16px;
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
 }
-.main-content__methodology-dot:after {
+.main-content__dot:after {
+    border-radius: 2px;
     content: '';
     height: 4px;
     display: block;
@@ -74,7 +75,20 @@
     font-weight: 300;
     max-width: 674px;
 }
-.main-content__case {
+.main-content__case-text {
     text-align: center;
+    margin-bottom: 64px;
+}
+
+.main-content__case-text .main-content__dot:after {
+    background: #1C346C;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 50px;
 }
 
