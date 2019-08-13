@@ -46,6 +46,13 @@
     margin: 0;
     text-transform: uppercase;
 }
+.main-content__methodology-dot:after {
+    content: '';
+    height: 4px;
+    display: block;
+    width: 50px;
+    background: #1C346C;
+}
 .main-content__methodology-border {
     background: #1C346C;
     border-radius: 3px;
@@ -67,5 +74,7 @@
     font-weight: 300;
     max-width: 674px;
 }
-
+.main-content__case {
+    text-align: center;
+}
 
