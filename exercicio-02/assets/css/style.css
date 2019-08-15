@@ -142,7 +142,8 @@ body {
     width: 50px;
     margin: 5px auto;
 }
-.slider-item__img {
-    object-fit: cover;
+.slider-container {
+    height: 500px;
 }
 /* fim main  */
+.slider-container img { width: 100%; }

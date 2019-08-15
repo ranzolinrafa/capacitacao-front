@@ -3,7 +3,7 @@ var nextArrow = $('.slider-arrow--next');
 
 $('.slider-container').slick({
     infite: true,
-    slidesToShow: 4,
+    slidesToShow: 1,
     prevArrow: prevArrow,
     nextArrow: nextArrow,
     slidesToScroll: 1
