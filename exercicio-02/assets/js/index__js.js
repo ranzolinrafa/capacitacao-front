@@ -1,9 +1,9 @@
 var prevArrow = $('.slider-arrow--prev');
 var nextArrow = $('.slider-arrow--next');
 
-$('.slick-container').slick({
+$('.slider-container').slick({
     infite: true,
-    slidesToShow: 1,
+    slidesToShow: 4,
     prevArrow: prevArrow,
     nextArrow: nextArrow,
     slidesToScroll: 1

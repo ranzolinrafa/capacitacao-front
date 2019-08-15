@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- reset css -->
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+
+    <!-- css  -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css"href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+
+    <!-- google fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i&display=swap" rel="stylesheet">  
+
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+   
     <title>Capacitação Exercício 2</title>
 </head>
 <body>
@@ -38,17 +50,37 @@
     <div class="main-container">
         <main class="main-content">
             <div class="main-content__methodology">
-                <p class="main-content__methodology-title">produto</p>
+                <p class="main-content__title">produto</p>
                 <div class="main-content__methodology-text">
                     <p class="main-content__methodology-desc">Conheça um pouco da nossa metodologia para criação de soluções inovadoras</p>
                     <p class="main-content__methodology-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                 </div>
             </div>
+            <div class="main-content__slider">
+                <p class="main-content__title">conheça alguns cases</p>
+            </div>
+            <button class="arrow-button slider-arrow--prev"> 
+                <i class="icon-chevron-left"></i>  
+            </button>
+            <div class="slider-container">
+                <div class="slider-item">
+                    <img src="assets/img/virtual.png" alt="Realidade Virtual" class="slider-item__img">
+                </div>
+                <div class="slider-item">
+                    <img src="assets/img/teclado.png" alt="Teclado" class="slider-item__img">
+                </div>
+                <div class="slider-item">
+                    <img src="assets/img/drone.png" alt="Drone" class="slider-item__img">
+                </div>
+            </div>
+            <button class="arrow-button slider-arrow--next">
+                <i class="icon-chevron-right"></i>
+            </button>
         </main>
     </div>
     <!-- fim main  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
     <script src="assets/js/index__js.js"></script>
 </body>
 </html>
