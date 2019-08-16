@@ -129,14 +129,14 @@ body {
     text-align: center;
     margin-bottom: 73px;
 }
-.main-content__title:last-child::after {
+.main-content__slider .main-content__title::after {
     background: #1C346C;  
     border-radius: 2px;   
     content: ' ';
     display: block;
     height: 4px;
     width: 50px;
-    margin: 5px auto;
+    margin: 5px auto 73px;
 }
 .slider-container {
     margin: auto;
