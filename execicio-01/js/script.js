@@ -10,9 +10,9 @@ $( document ).ready(function() {
     $(".nav-bar .container-ul li:first-child a:first-child").addClass("is-clicked");
     $(".nav-bar .link").click(function(){
         $(".nav-bar .container-ul:first-child").removeClass("is-clicked");
-        $(".nav-bar .link").removeClass("is-clicked");
+        $(this).parent().parent().find('.is-clicked').removeClass("is-clicked");
         $(this).addClass("is-clicked");
-    });
+     });
 });
 
           
