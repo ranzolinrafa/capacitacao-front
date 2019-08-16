@@ -1,1 +1,102 @@
-<!-- html file -->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- --------------------Cabeçalho da página-------------------- -->
+    <div class="container">
+        <header class="header-container">
+            <hr class="container-hr">
+            <img class="compasso-logo" src="./assets/logo-compasso.png" alt="logo compasso">
+            <nav class="nav-header">
+                <a class="home-header" href="#">home</a>
+                <a class="solucoes-header" href="#">soluções</a>
+                <a class="cases-header" href="#">cases</a>
+                <a class="contato-header" href="#">contato</a>
+            </nav>
+            <p class="header-primeiro-parag">
+                < front end />
+            </p>
+            <h2 class="header-h2">
+                <span class="header-segundo-parag">developer</span> <span class="header-segundo-paragr">challange</span>
+            </h2>
+        </header>
+        <!-- --------------------Conteúdo principal-------------------- -->
+        <main class="container-main">
+            <p class="main-titulo">produto</p>
+            <hr class="main-hr">
+            <h2 class="main-h2">Conheça um pouco da nossa metodologia para criação de soluções inovadoras</h2>
+            <img class="main-img" src="./assets/bg-section-1.svg" alt="developer">
+            <p class="main-parag">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            </p>
+        </main>
+        <!-- --------------------Slider de cases-------------------- -->
+        <p class="cases">conheça alguns cases</p>
+        <hr class="cases-hr">
+        <div class="carousel">
+            <div><img class="prim img" src="./assets/dose-media-DiTiYQx0mh4-unsplash.png" alt="drone">
+            </div>
+            <div><img class="seg img" src="./assets/anas-alshanti-feXpdV001o4-unsplash.png" alt="keybord">
+            </div>
+        </div>
+    </div>
+    <!-- --------------------Área do cliente-------------------- -->
+    <div class="container-cliente">
+        <div class="container-h3">
+            <h3 class="cliente-acesso">Acesse nossa plataforma exclusiva</h3>
+            <div class="container-form">
+                <form action="" method="get" class="form-cliente">
+                    <div class="form-cliente-user">
+                        <label for="user">Usuário </label>
+                        <input class="input" type="text" name="user" id="user" required>
+                    </div>
+                    <div class="form-cliente-senha">
+                        <label for="senha">Senha </label>
+                        <input class="input" type="senha" name="senha" id="senha" required>
+                    </div>
+                    <div class="form-cliente-submit">
+                        <button class="button-form" type="submit">Acessar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------Footer da página-------------------- -->
+    <footer class="footer">
+        <img class="footer-img" src="./assets/logo-compasso.png" alt="logo compasso">
+        <nav class="nav-footer">
+            <a class="home-footer" href="#">home</a>
+            <a class="solucoes-footer" href="#">soluções</a>
+            <a class="cases-footer" href="#">cases</a>
+            <a class="contato-footer" href="#">contato</a>
+        </nav>
+    </footer>
+    <!-- --------------------Scripts Jquery-------------------- -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+    </script>
+    <script>
+        $('.carousel').slick({
+            slidesToShow: 1,
+            speed: 500,
+            slidesToScroll: 1,
+            arrows: true,
+        });
+    </script>
+</body>
+
+</html>
