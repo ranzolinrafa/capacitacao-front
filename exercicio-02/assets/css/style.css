@@ -232,10 +232,10 @@ body {
 }
 .footer-form__login-inp {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #1C346C;
     border-radius: 2px;
-    width: 345px;
-    height: 24px;
+    border: 1px solid #1C346C;
+    height: 32px;
+    width: 328px;
 }
 .footer-form__login-btn {
     background: #1C346C 0% 0% no-repeat padding-box;
