@@ -1,1 +1,290 @@
-/* css file */
+/* --------------------Header--------------------*/
+.container-hr {
+    width: 75%;
+    height: 8px;
+    border-radius: 0px 5px;
+    background-color: #1C346C;
+    border: 1px solid #707070;
+}
+
+.header-container .compasso-logo {
+    width: 15%;
+    height: 10%;
+    padding-top: 40px;
+    margin-left: 12%;
+}
+
+.nav-header {
+    width: 40%;
+    height: 5%;
+    float: right;
+    margin-top: 5%;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    margin-right: 5%;
+    word-spacing: 23px;
+}
+
+a:hover {
+    color: #F5C33D;
+    text-decoration: underline;
+}
+
+.solucoes-header,
+.cases-header,
+.home-header,
+.contato-header {
+    color: #1C346C;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header-primeiro-parag {
+    width: 212px;
+    height: 48px;
+    font-family: 'Lato', sans-serif;
+    color: #1C346C;
+    font-size: 34px;
+    padding-left: 40%;
+}
+
+.header-h2 {
+    margin-left: 35%;
+    font-size: 40px;
+    font-family: 'Lato';
+}
+
+.header-segundo-parag {
+    color: #1C346C;
+}
+
+.header-segundo-paragr {
+    font-weight: 500;
+    color: #F5C33D;
+}
+
+/* --------------------Main--------------------*/
+.container-main {
+    height: 475px;
+}
+
+.main-titulo {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #1c346c;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main-hr {
+    border-radius: 2px;
+    background-color: #1C346C;
+    width: 50px;
+    height: 4px;
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+.main-h2 {
+    font-family: 'Lato';
+    color: #1c346c;
+    font-weight: 600;
+    margin-left: 5%;
+    font-size: 32px;
+    width: 37%;
+}
+
+.main-parag {
+    font-family: 'Lato';
+    color: #3b3b3b;
+    font-size: 14px;
+    margin-left: 5%;
+    width: 30%;
+}
+
+.main-img {
+    width: 44%;
+    float: right;
+    position: absolute;
+    right: 12%;
+    top: 376px;
+}
+
+/* --------------------Slider-------------------- */
+.cases {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #1c346c;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 44%;
+    margin-top: 10%;
+}
+
+.cases-hr {
+    border-radius: 2px;
+    background-color: #1C346C;
+    width: 50px;
+    height: 4px;
+}
+
+.img {
+    width: 65%;
+    height: 100%;
+    margin-left: 3%
+}
+
+.carousel {
+    width: 78%;
+    height: 359px;
+    float: right;
+}
+
+.slick-prev {
+    top: 48% !important;
+}
+
+.slick-next {
+    right: 26% !important;
+    top: 48% !important;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.slick-prev:before {
+    color: #1C346C !important;
+    content: "<" !important;
+    font-family: 'Lato' !important;
+    font-weight: bolder !important;
+    font-size: 36px !important;
+}
+
+.slick-next:before {
+    color: #1C346C !important;
+    content: ">" !important;
+    font-family: 'Lato' !important;
+    font-weight: bolder !important;
+    font-size: 36px !important;
+}
+
+/* --------------------Área do cliente--------------------   */
+.container-cliente {
+    width: 56%;
+    height: 229px;
+    background-color: #F5C33D;
+    border: 1px solid #707070;
+    float: left;
+    margin-left: 8px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.cliente-acesso {
+    font-family: 'Lato';
+    color: #1C346C;
+    font-weight: 600;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: right;
+    margin-top: 0px;
+    width: 45%;
+    margin-top: 14px;
+    margin-bottom: 23px;
+}
+
+.container-h3 {
+    height: 160px;
+    width: 42%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #000000;
+    margin-left: 27%;
+    position: absolute;
+    margin-top: 2%;
+}
+
+.container-form {
+    height: 101px;
+    width: 33%;
+    background-color: #FFFFFF;
+    left: 52%;
+    bottom: auto;
+    top: 13px;
+    position: absolute;
+}
+
+.form-cliente-senha {
+    margin-top: 14px;
+}
+
+label {
+    font-family: 'Lato';
+    color: #3b3b3b;
+    font-size: 12px;
+    margin-left: 11px;
+}
+
+.input {
+    background-color: #FFFFFF;
+    border: 1px solid #1C346C;
+    border-radius: 2px;
+    width: 84%;
+    margin-left: 11px;
+    height: 18px;
+}
+
+.button-form {
+    background-color: #1C346C;
+    border-radius: 3px;
+    margin-left: 11px;
+    font-family: 'Lato';
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 58px;
+    height: 25px;
+    font-size: 8px;
+    margin-top: 24px;
+    opacity: 1;
+}
+
+/* --------------------Footer-------------------- */
+.footer {
+    width: 50%;
+    height: 50%;
+}
+
+.footer-img {
+    width: 32%;
+    height: 20%;
+    padding-top: 9%;
+    padding-bottom: 4%;
+    margin-left: 80%;
+    margin-right: 80%;
+    float: left;
+}
+
+.nav-footer {
+    width: 70%;
+    height: 25%;
+    float: left;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    word-spacing: 23px;
+    margin-left: 77%;
+}
+
+.solucoes-footer,
+.cases-footer,
+.home-footer,
+.contato-footer {
+    color: #1C346C;
+    text-decoration: none;
+    font-weight: 700;
+}
