@@ -1,1 +1,278 @@
 /* css file */
+.container {
+    max-width: 80%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* CSS globais */
+h1,
+h2,
+h3,
+p {
+    font-family: 'Lato';
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #1C346C;
+    letter-spacing: 0;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: #1C346C;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+footer {
+    margin-top: 400px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+form {
+    padding: 13px;
+    margin-left: 55%;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+/* CSS Header */
+.containerHeader {
+    text-align: center;
+    height: 357px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.hrHeader {
+    height: 8px;
+    background-color: #1C346C;
+    margin-top: 0;
+    border-radius: 0px 5px;
+}
+
+.logoCompassoHeader {
+    float: left;
+    height: 20%;
+    margin-top: 5px;
+}
+
+.navHeader {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.navHeader>ul>li:nth-child(4) {
+    padding-right: 0;
+}
+
+.textFront {
+    color: #1C346C;
+    letter-spacing: 0;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 12%;
+}
+
+.textColor {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.colorBlue {
+    color: #1C346C;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.colorYellow {
+    color: #F5C33D;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+/* CSS Section produto */
+.subtitle {
+    font-style: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.firstHr {
+    border-radius: 2px;
+    background-color: #1C346C;
+    width: 33px;
+    height: 2px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titleBody {
+    width: 36%;
+    position: absolute;
+}
+
+.titlePrimary {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.textBody {
+    width: 84%;
+    color: #3B3B3B;
+}
+
+.imgBody {
+    margin-left: 35%;
+    width: 100%;
+}
+
+.imgProduct {
+    width: 66%;
+}
+
+/* CSS Carousel */
+.slick-prev::before {
+    color: #1C346C !important;
+    content: "<" !important;
+    font-family: 'Lato' !important;
+    font-weight: bolder !important;
+    font-size: 36px !important;
+}
+
+.slick-next::before {
+    color: #1C346C !important;
+    content: ">" !important;
+    font-family: 'Lato' !important;
+    font-weight: bolder !important;
+    font-size: 36px !important;
+}
+
+.slick-next {
+    right: 5% !important;
+}
+
+.slick-prev {
+    left: 5% !important;
+    z-index: 1;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.section {
+    margin-top: 80px;
+}
+
+.titleCarousel {
+    text-align: center;
+}
+
+.secondHr {
+    border-radius: 2px;
+    background-color: #1C346C;
+    width: 33px;
+    height: 2px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.carrousel {
+    width: 89%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-carousel {
+    width: 80%;
+    height: 342px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+}
+
+/* CSS Area do Cliente */
+.boxClient {
+    width: 50%;
+    height: 234px;
+    background-color: #F5C33D;
+    position: absolute;
+}
+
+.boxLogin {
+    display: inline-block;
+    position: absolute;
+    margin-left: 29%;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 28px;
+    height: 154px;
+    box-shadow: 0px 3px 6px #000000;
+}
+
+.btnForm {
+    display: block;
+    width: 96px;
+    height: 30px;
+    background-color: #1C346C;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.textBoxClient {
+    text-align: right;
+    color: #1C346C;
+    width: 46%;
+    font-size: 33px;
+    display: inline;
+    float: left;
+    margin-top: 12px;
+}
+
+/* CSS Footer */
+.logoCompassoFooter {
+    width: 12%;
+    height: 20%;
+}
+
+.underline {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bolder;
+    color: #1C346C;
+    font-family: 'Segoe UI';
+}
+
+.navbar>ul>li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+/* css :hover */
+.underline:hover {
+    text-decoration: underline;
+    color: #F5C33D;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
