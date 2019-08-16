@@ -1,6 +1,14 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.clearfix::before, .clearfix::after {
+    content: ' ';
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
 /* inicio header */
 .header-container {
     max-width: 1264px;
@@ -24,7 +32,7 @@ body {
     display: inline-block;
     vertical-align: super;
 }
-.main-header__list-content {
+.menu-nav__list-content {
     color: #1C346C;
     cursor: pointer;
     display: inline-block;
@@ -33,14 +41,14 @@ body {
     text-transform: uppercase;
     margin-right: 60px;
 }
-.main-header__list-link {
+.menu-nav__list-link {
     text-decoration: none;
     color: #1C346C;
 }
-.main-header__list-content:first-child .main-header__list-link {
+.menu-nav__list-content:first-child .menu-nav__list-link {
     color: #F5C33D;
 }
-.main-header__list-content:first-child::after {  
+.menu-nav__list-content:first-child::after {  
     background: #F5C33D;  
     border-radius: 2px;   
     content: ' ';
@@ -48,10 +56,10 @@ body {
     height: 5px;
     width: 100%;
 }   
-.main-header__list-content:last-child {
+.menu-nav__list-content:last-child {
     margin-right: 0; 
 }
-.main-header__list-content:hover::after {
+.menu-nav__list-content:hover::after {
     background: #F5C33D;  
     border-radius: 2px;   
     content: ' ';
@@ -211,37 +219,7 @@ body {
     float: right;
     display: block;
 }
-.main-footer__menu-nav {
-    margin-bottom: 100px;
-}
-.main-footer__list-content {
-    display: inline-block;
-    margin-right: 3%;
-}
-.main-footer__list-link {
-    color: #1C346C;
-    font-size: 24px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.main-footer__list-content:first-child .main-footer__list-link {
-    color: #F5C33D;
-}
-.main-footer__list-content:first-child::after {  
-    background: #F5C33D;  
-    border-radius: 2px;   
-    content: ' ';
-    display: block;
-    height: 5px;
-    width: 100%;
-} 
-.main-footer__list-content:hover::after {
-    background: #F5C33D;  
-    border-radius: 2px;   
-    content: ' ';
-    display: block;
-    height: 5px;
-    width: 100%;
+.footer-form__login {
+    padding: 0 24px 58px;
 }
 /* fim footer */
