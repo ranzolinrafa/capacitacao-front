@@ -1,1 +1,228 @@
-/* css file */
+.header {
+	background: #EEE;
+	width: 72%;
+	margin: auto;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.20);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.20);
+	margin-bottom: 5px;
+	border-radius: 10px;
+}
+
+h1 {
+	width: 75%;
+	display: inline-block;
+  	text-align: center;
+  	margin: 3px 0px;
+  	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  	font-size: 2.25rem;
+  	color: #333;
+}
+
+.header > a {
+	background-color: #EEE;
+	color: white;
+	min-width: 4%;
+	padding: 12px 1%;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+	border: 2px solid #AAA;
+	color: #555;
+}
+
+.header > a:link, .header > a:visited {
+	text-decoration: none;
+}
+
+.header > a:hover, .header > a:active {
+	transition: 0.5s;
+	background-color: #AAA;
+	color: #EEE;
+}
+
+.login {
+	float: right;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.singup {
+	float: right;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.content {
+	width: 72%;
+	background: #E5E5E5;
+	margin: auto;
+	min-height: 650px;
+	max-height: auto;
+	overflow: auto;
+}
+
+body {
+	background: #EEE;
+}
+
+.space01 {
+	width: 10%;
+	height: 20px;
+	display: inline-block; 
+}
+
+.navMenu {
+	background: #DDD;
+	height: 25px;
+	margin: auto;
+	width: 72%;
+	padding: 10px 0px;
+  	text-align: center;
+  	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+	margin-bottom: 5px;
+}
+
+.navMenu > a {
+	padding: 0px 2%;
+	margin: 10px 1%;
+	min-width: 10%; 
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 1.25rem;
+  	text-decoration: none;
+  	color: #333;
+}
+
+.navMenu > a:hover {
+	text-decoration: underline;
+	color: #999;
+	transition: 0.5s;
+}
+
+div.texto {
+	display: inline;
+	float: left;
+	width: 68%; 
+	color: #222;
+	padding: 10px;
+}
+
+img.imgText {
+	width: 100%;
+	position: relative;
+}
+
+img.imgText:active {
+	z-index: 1000;
+	transition: 0.3s;
+	width: 250%;
+
+}
+
+img.imgText:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	transition: 0.3s;
+}
+
+div.divImg {
+	max-width: 20%;
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+div.divTextSinopse {
+	float: right;
+	width: 75%;
+}
+
+h2.title {
+	font-style: italic;
+	text-align: right;
+	border-bottom: solid 2px #CCC;
+	display: inline;
+	float: right;
+	width: 75%;
+	padding-bottom: 10px;
+}
+
+h3 {
+	color: #66A;
+	display: inline;
+	margin: 0px;
+}
+div.divText1 {
+	width: 30%; 
+	margin-left: 1%;
+	float: right;
+}
+
+h4 {
+	text-align: justify;
+}
+
+div.navBooks {
+	display: inline;
+	float: right;
+	width: 25%;
+	height: 450px;
+	overflow: auto;
+	margin-top: 10px;
+	padding: 10px 0px;
+}
+
+ul.ulNavBooks {
+	list-style-type: none;
+	margin: 0px ;
+	padding: 0px;
+}
+
+li.liNavBooks {
+	padding: 5px;
+}
+
+li.liNavBooks:hover {
+	background: #AAA;
+	transition: 0.3s;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+li.liNavBooksActive {
+	background: #AAA;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+div.navBooks::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+div.navBooks::-webkit-scrollbar-track {
+    background: rgba(150,150,150,0.1); 
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2); 
+    border-radius: 3px;
+}
+ 
+div.navBooks::-webkit-scrollbar-thumb {
+    background: rgba(100,100,100,0.1); 
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2); 
+}
+
+div.navBooks::-webkit-scrollbar:window-inactive {
+    width: 5px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+    background: rgba(200,200,200,0.1); 
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2); 
+}
+ 
+body::-webkit-scrollbar-thumb {
+    background: rgba(150,150,150,0.5); 
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2); 
+}
